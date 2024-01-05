@@ -1,11 +1,19 @@
+import hanaWaterfall from '../assets/images/hana-waterfall-resize.jpg';
+import kaauWaterfall from '../assets/images/kaau-waterfall-resize.jpg';
+import kaena from '../assets/images/kaena-resize.jpg';
+import koko from '../assets/images/koko-surise-resize.jpg';
+import olomana from '../assets/images/olomana-resize.jpg';
+// import waterfall from '../assets/images/hana-waterfall-resize.jpg';
+
 export default function Portfolio() {
     return (
         <div>
-            <h1>About Me</h1>
-            <p>
-                Full Stack Web Developer with a unique background in the healthcare field. Completing a certificate in Full Stack Web Development from the University of California Berkeley Coding Boot Camp. Critical thinker with a passion for solving complex problems. Strengths include teamwork, multitasking, and a strong desire to learn new skills as well as improve existing skills. Pursuing a career path that allows me to utilize my current skills and apply them in new creative ways.
-
-            </p>
+            <img src={hanaWaterfall} className="rounded float-start img" alt="Waterfall" />
+            <img src={kaauWaterfall} className="rounded float-end img" alt="Waterfall" />
+            <img src={kaena} className="rounded float-start img" alt="Waterfall" />
+            <img src={koko} className="rounded float-end img" alt="Waterfall" />
+            <img src={olomana} className="rounded float-start img" alt="Waterfall" />
+            <img src={olomana} className="rounded float-end img" alt="Waterfall" />
         </div>
-    );
+    )
 }
