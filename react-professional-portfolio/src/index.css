@@ -43,14 +43,22 @@ h3 {
   text-shadow: 1px 1px 1px rgb(254, 126, 148);
 }
 
+.projects {
+  padding: 10px;
+  text-align: center;
+  font-size: 200%;
+}
+
 .img {
   border-style: hidden;
   padding: 12px;
   box-shadow: 10px 10px 10px #d8dadc;
   margin: 10px 30px;
   flex: 0 0 320px;
-  max-width: 100%
+  max-width: 100%;
 }
+
+
 
 button {
   border-radius: 8px;

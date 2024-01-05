@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 
 function Footer() {
     return (
-        <div className="text-center">
+        <footer className="text-center float-none">
         <Link
           to="https://github.com/tabbdacat"
           className= 'nav-link nav-item'
@@ -21,7 +21,7 @@ function Footer() {
           >
             Stack Overflow
           </Link>
-        </div>
+        </footer>
     );
 }
 

@@ -7,13 +7,26 @@ import olomana from '../assets/images/olomana-resize.jpg';
 
 export default function Portfolio() {
     return (
-        <div>
-            <img src={hanaWaterfall} className="rounded float-start img" alt="Waterfall" />
-            <img src={kaauWaterfall} className="rounded float-end img" alt="Waterfall" />
-            <img src={kaena} className="rounded float-start img" alt="Waterfall" />
-            <img src={koko} className="rounded float-end img" alt="Waterfall" />
-            <img src={olomana} className="rounded float-start img" alt="Waterfall" />
-            <img src={olomana} className="rounded float-end img" alt="Waterfall" />
+        <div className="projects row">
+            <div className="card col-6">
+                <img src={hanaWaterfall} className="card-img-top rounded img" alt="Waterfall" />
+                <p className="card-img-overlay">Some text</p>
+            </div>
+            <div className="col-6">
+                <img src={kaauWaterfall} className="rounded img" alt="Waterfall" />
+            </div>
+            <div className="col-6">
+                <img src={kaena} className="rounded img" alt="Waterfall" />
+            </div>
+            <div className="col-6">
+                <img src={koko} className="rounded img" alt="Waterfall" />
+            </div>
+            <div className="col-6">
+                <img src={olomana} className="rounded img" alt="Waterfall" />
+            </div>
+            <div className="col-6">
+                <img src={olomana} className="rounded img" alt="Waterfall" />
+            </div>
         </div>
     )
 }
