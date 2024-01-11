@@ -27,6 +27,9 @@ function Contact() {
     if (email.trim().length === 0) {
       return alert('Email must be provided');
     }
+    if (message.trim().length === 0) {
+      return alert('A message must be provided');
+    }
   }
 
 // when form submitted, prevent page reload and alert user of email sent
