@@ -4,15 +4,22 @@ function Contact() {
 
   const [userName, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
 
+  // assign inputs to variables
   const handleInputChange = (event) => {
     if (event.target.name === 'nameInput') {
       setName(event.target.value);
+    } else if (event.target.name === 'messageInput') {
+      setMessage(event.target.value);
     } else {
       setEmail(event.target.value);
     }
   }
 
+
+
+  // if no input after being clicked on, display alert to user
   const handleAddInput = () => {
     if (userName.trim().length === 0) {
       return alert('Name must be provided');
@@ -22,13 +29,25 @@ function Contact() {
     }
   }
 
+// when form submitted, prevent page reload and alert user of email sent
+const handleSubmit = (event) => {
+  event.preventDefault();
+  alert(`Message Submitted!`)
+}
+
+
+
+
+
+
   // setName('');
   // setEmail('');
 
   return (
     <div>
       <h1>Contact Me </h1>
-      <div class="mb-3">
+      <form onSubmit={handleSubmit}>
+      <div className="mb-3">
         <label className="form-label">Name</label>
         <input
           className="form-control"
@@ -38,7 +57,7 @@ function Contact() {
           onChange={handleInputChange}
         />
       </div>
-      <div class="mb-3">
+      <div className="mb-3">
         <label className="form-label">Email Address</label>
         <input
           className="form-control"
@@ -48,14 +67,14 @@ function Contact() {
           onChange={handleInputChange}
         />
       </div>
-      <div class="mb-3">
+      <div className="mb-3">
         <label className="form-label">Message</label>
         <textarea
           className="form-control"
 
           placeholder='Enter your message Here'
-          value={email}
-          name='emailInput'
+          value={message}
+          name='messageInput'
           rows="5"
           onChange={handleInputChange}
         />
@@ -66,6 +85,7 @@ function Contact() {
       >
         Submit
       </button>
+      </form>
 
     </div>
   );
