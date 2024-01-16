@@ -16,32 +16,32 @@ const projects = [
     {
         title: "MovieMix & Sip - Group Collaboration",
         image: moveMixImg,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/ucb-allstars-project-1/movie-cocktail-combo",
+        site: "https://ucb-allstars-project-1.github.io/movie-cocktail-combo/"
     },
     {
         title: "Tech Blog",
         image: techBlogImg,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
+        github: "https://github.com/tabbdacat/tech-blog",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
     {
         title: "Weather Dashboard",
         image: weatherDashImg,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/tabbdacat/weather-dashboard",
+        site: "https://tabbdacat.github.io/weather-dashboard/"
     },
     {
         title: "Coding Quiz",
         image: codingQuizImg,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/tabbdacat/coding-quiz",
+        site: "https://tabbdacat.github.io/coding-quiz/"
     },
     {
         title: "Social Network API",
         image: socialAPIImg,
-        github: "https://github.com/quar-tech/mvc-recipe-sharing",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        github: "https://github.com/tabbdacat/social-network-api",
+        site: "https://drive.google.com/file/d/1xwfROda1DgFF3f8CBdpaUapTH7MgSlPs/view"
     },
 
 ]
