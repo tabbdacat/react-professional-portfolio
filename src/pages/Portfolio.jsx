@@ -1,8 +1,3 @@
-// import hanaWaterfall from '../assets/images/hana-waterfall-resize.jpg';
-import kaauWaterfall from '../assets/images/kaau-waterfall-resize.jpg';
-import kaena from '../assets/images/kaena-resize.jpg';
-import koko from '../assets/images/koko-surise-resize.jpg';
-import olomana from '../assets/images/olomana-resize.jpg';
 import moveMixImg from '../assets/images/movieMixImg.jpg';
 import culinaryConnectImg from '../assets/images/culinaryConnectImg.jpg';
 import codingQuizImg from '../assets/images/codingQuizImg.jpg';
@@ -10,11 +5,6 @@ import techBlogImg from '../assets/images/techBlogImg.jpg';
 import weatherDashImg from '../assets/images/weatherDashImg.jpg';
 import socialAPIImg from '../assets/images/socialAPIImg.jpg';
 
-
-
-
-
-// import waterfall from '../assets/images/hana-waterfall-resize.jpg';
 
 const projects = [
     {
@@ -56,7 +46,7 @@ const projects = [
 
 ]
 
-
+// map through projects array to render to page
 export default function Portfolio() {
     return (
         <div className="projects row">
