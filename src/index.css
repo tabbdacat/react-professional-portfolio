@@ -49,12 +49,10 @@ h3 {
   font-size: 200%;
 }
 
-.img {
+.card {
   border-style: hidden;
-  padding: 12px;
-  box-shadow: 10px 10px 10px #d8dadc;
-  margin: 10px 30px;
-  flex: 0 0 320px;
+  box-shadow: 8px 8px 8px #d8dadc;
+  margin: 20px;
   max-width: 100%;
 }
 
