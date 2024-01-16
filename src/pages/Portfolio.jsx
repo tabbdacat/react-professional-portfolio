@@ -3,42 +3,53 @@ import kaauWaterfall from '../assets/images/kaau-waterfall-resize.jpg';
 import kaena from '../assets/images/kaena-resize.jpg';
 import koko from '../assets/images/koko-surise-resize.jpg';
 import olomana from '../assets/images/olomana-resize.jpg';
+import moveMixImg from '../assets/images/movieMixImg.jpg';
+import culinaryConnectImg from '../assets/images/culinaryConnectImg.jpg';
+import codingQuizImg from '../assets/images/codingQuizImg.jpg';
+import techBlogImg from '../assets/images/techBlogImg.jpg';
+import weatherDashImg from '../assets/images/weatherDashImg.jpg';
+import socialAPIImg from '../assets/images/socialAPIImg.jpg';
+
+
+
+
+
 // import waterfall from '../assets/images/hana-waterfall-resize.jpg';
 
 const projects = [
     {
         title: "Culinary Connect - Group Collaboration",
-        image: kaauWaterfall,
+        image: culinaryConnectImg,
         github: "https://github.com/quar-tech/mvc-recipe-sharing",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
     {
         title: "MovieMix & Sip - Group Collaboration",
-        image: kaauWaterfall,
+        image: moveMixImg,
         github: "https://github.com/quar-tech/mvc-recipe-sharing",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
     {
         title: "Tech Blog",
-        image: kaauWaterfall,
+        image: techBlogImg,
         github: "https://github.com/quar-tech/mvc-recipe-sharing",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
     {
         title: "Weather Dashboard",
-        image: kaauWaterfall,
+        image: weatherDashImg,
         github: "https://github.com/quar-tech/mvc-recipe-sharing",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
     {
         title: "Coding Quiz",
-        image: kaauWaterfall,
+        image: codingQuizImg,
         github: "https://github.com/quar-tech/mvc-recipe-sharing",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
     {
         title: "Social Network API",
-        image: kaauWaterfall,
+        image: socialAPIImg,
         github: "https://github.com/quar-tech/mvc-recipe-sharing",
         site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
     },
