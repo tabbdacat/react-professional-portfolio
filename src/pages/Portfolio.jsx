@@ -5,83 +5,64 @@ import koko from '../assets/images/koko-surise-resize.jpg';
 import olomana from '../assets/images/olomana-resize.jpg';
 // import waterfall from '../assets/images/hana-waterfall-resize.jpg';
 
+const projects = [
+    {
+        title: "Culinary Connect - Group Collaboration",
+        image: kaauWaterfall,
+        github: "https://github.com/quar-tech/mvc-recipe-sharing",
+        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+    },
+    {
+        title: "MovieMix & Sip - Group Collaboration",
+        image: kaauWaterfall,
+        github: "https://github.com/quar-tech/mvc-recipe-sharing",
+        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+    },
+    {
+        title: "Tech Blog",
+        image: kaauWaterfall,
+        github: "https://github.com/quar-tech/mvc-recipe-sharing",
+        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+    },
+    {
+        title: "Weather Dashboard",
+        image: kaauWaterfall,
+        github: "https://github.com/quar-tech/mvc-recipe-sharing",
+        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+    },
+    {
+        title: "Coding Quiz",
+        image: kaauWaterfall,
+        github: "https://github.com/quar-tech/mvc-recipe-sharing",
+        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+    },
+    {
+        title: "Social Network API",
+        image: kaauWaterfall,
+        github: "https://github.com/quar-tech/mvc-recipe-sharing",
+        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+    },
+
+]
+
+
 export default function Portfolio() {
     return (
         <div className="projects row">
-            <div className="card col-10 col-md-5">
-                <img src={kaena} className="card-img-top rounded img" alt="project 1" />
+            {projects.map((project) => (
+                <div className="card col-10 col-md-5"  key={project.title}>
+                    <img src={project.image} className="card-img-top rounded img" alt="project 1" />
                     <div className="card-body">
-                        <h5 className="card-title">Project title</h5>
+                        <h5 className="card-title">{project.title}</h5>
                     </div>
                     <div className="card-body">
                         <p className="card-link"> link</p>
                         <p className="card-link">Another link</p>
                     </div>
-            </div>
-            <div className="card col-5">
-                <img src={kaena} className="card-img-top rounded img" alt="project 2" />
-                    <div className="card-body">
-                        <h5 className="card-title">Project title</h5>
-                    </div>
-                    <div className="card-body">
-                        <p className="card-link"> link</p>
-                        <p className="card-link">Another link</p>
-                    </div>
-            </div>            <div className="card col-5">
-                <img src={kaena} className="card-img-top rounded img" alt="project 3" />
-                    <div className="card-body">
-                        <h5 className="card-title">Project title</h5>
-                    </div>
-                    <div className="card-body">
-                        <p className="card-link"> link</p>
-                        <p className="card-link">Another link</p>
-                    </div>
-            </div>            <div className="card col-5">
-                <img src={kaena} className="card-img-top rounded img" alt="project 4" />
-                    <div className="card-body">
-                        <h5 className="card-title">Project title</h5>
-                    </div>
-                    <div className="card-body">
-                        <p className="card-link"> link</p>
-                        <p className="card-link">Another link</p>
-                    </div>
-            </div>            <div className="card col-5">
-                <img src={kaena} className="card-img-top rounded img" alt="project 5" />
-                    <div className="card-body">
-                        <h5 className="card-title">Project title</h5>
-                    </div>
-                    <div className="card-body">
-                        <p className="card-link"> link</p>
-                        <p className="card-link">Another link</p>
-                    </div>
-            </div>            <div className="card col-5">
-                <img src={kaena} className="card-img-top rounded img" alt="project 6" />
-                    <div className="card-body">
-                        <h5 className="card-title">Project title</h5>
-                    </div>
-                    <div className="card-body">
-                        <p className="card-link"> link</p>
-                        <p className="card-link">Another link</p>
-                    </div>
-            </div>
 
+                </div>
+            ))}
 
-
-            <div className="col-6">
-                <img src={kaauWaterfall} className="rounded img" alt="Waterfall" />
-            </div>
-            <div className="col-6">
-                <img src={kaena} className="rounded img" alt="Waterfall" />
-            </div>
-            <div className="col-6">
-                <img src={koko} className="rounded img" alt="Waterfall" />
-            </div>
-            <div className="col-6">
-                <img src={olomana} className="rounded img" alt="Waterfall" />
-            </div>
-            <div className="col-6">
-                <img src={olomana} className="rounded img" alt="Waterfall" />
-            </div>
         </div>
     )
 }
