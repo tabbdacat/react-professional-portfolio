@@ -8,17 +8,8 @@ function NavTabs() {
         <li className="nav-item">
           <Link
             to="/"
-            // If on home page, we set the url to / and page to class 'nav-link-active', otherwise we set it to 'nav-link'
+            // If on About page, we set the url to /A and page to class 'nav-link-active', otherwise we set it to 'nav-link'
             className={currentPage === '/' ? 'nav-link active' : 'nav-link nav-item'}
-          >
-            Home
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            to="/About"
-            // If on About page, we set the url to /About and page to class 'nav-link-active', otherwise we set it to 'nav-link'
-            className={currentPage === '/About' ? 'nav-link active' : 'nav-link nav-item'}
           >
             About
           </Link>
