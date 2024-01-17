@@ -87,7 +87,6 @@ function Contact() {
             className="form-control"
             onBlur={() => message.length === 0 ? setMessageError(true) : setMessageError(false)}
             onFocus={() => setMessageError(false)}
-            // onBlur={handleAddInput}
             placeholder='Enter your message Here'
             value={message}
             name='messageInput'

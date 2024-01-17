@@ -51,8 +51,8 @@ export default function Portfolio() {
     return (
         <div className="projects row">
             {projects.map((project) => (
-                <div className="card col-10 col-md-5"  key={project.title}>
-                    <img src={project.image} className="card-img-top rounded img" alt="project 1" />
+                <div className="card col-10 col-md-5 border border-light-subtle"  key={project.title}>
+                    <img src={project.image} className="card-img-top rounded img mt-3" alt="project 1" />
                     <div className="card-body">
                         <h5 className="card-title">{project.title}</h5>
                     </div>

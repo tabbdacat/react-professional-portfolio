@@ -2,7 +2,7 @@ import mePhoto from '../assets/images/me-2024.jpg';
 
 export default function About() {
     return (
-        <div class="container px-4">
+        <div className="container px-4">
         <div className="row gx-5">
             <h3>About Me</h3>
             <img src={mePhoto} className="rounded col-3 p-4" alt="Photo of Tabbatha"></img>
