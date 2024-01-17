@@ -57,8 +57,10 @@ export default function Portfolio() {
                         <h5 className="card-title">{project.title}</h5>
                     </div>
                     <div className="card-body">
-                        <p className="card-link"> link</p>
-                        <p className="card-link">Another link</p>
+                    <div className="btn-group" role="group" aria-label="Basic outlined example">
+                        <a href={project.github} className="btn btn-outline-light">Github Repo</a>
+                        <a href={project.site} className="btn btn-outline-light">Deployed app</a>
+                        </div>
                     </div>
 
                 </div>

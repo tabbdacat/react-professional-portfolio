@@ -111,7 +111,7 @@ const validateEmail = (event) => {
       </div>
       <button
         onClick={handleAddInput}
-        className="btn btn-primary"
+        className="btn btn-outline-light"
       >
         Submit
       </button>
