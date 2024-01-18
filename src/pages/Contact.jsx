@@ -53,6 +53,7 @@ function Contact() {
   return (
     <div>
       <h1>Contact Me </h1>
+      <div className="col-lg-5 col-md-7">
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label className="form-label">Name</label>
@@ -102,6 +103,7 @@ function Contact() {
           Submit
         </button>
       </form>
+      </div>
 
     </div>
   );

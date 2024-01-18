@@ -10,7 +10,7 @@ function Footer() {
           GitHub
         </Link>
           <Link
-            to="https://www.linkedin.com/in/tabbatha-pischke-9a0675288/"
+            to="https://www.linkedin.com/in/tabbatha-souza-9a0675288/"
             className= 'nav-link nav-item  d-inline px-3'
           >
             LinkedIn
