@@ -41,7 +41,7 @@ h3 {
   font-size: 200%;
 }
 
-.card {
+.card , .pic-me {
   border-style: hidden;
   box-shadow: 8px 8px 8px #d8dadc;
   margin: 20px;
