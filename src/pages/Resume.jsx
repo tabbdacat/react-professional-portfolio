@@ -30,15 +30,6 @@ export default function Resume() {
     return (
         <div>
             <h3>Resume and Proficiencies</h3>
-            <div className="text-center">
-                <p>Want more details? Download Resume below:</p>
-                <button
-                    className="btn btn-outline-light mb-4"
-                    onClick={onResumeClick}
-                >
-                    Download PDF
-                </button>
-            </div>
             <div className="card w-75 border border-light-subtle p-3">
                 <h4 className="text-center  border border-light-subtle p-3"> Proficiencies</h4>
 
@@ -54,6 +45,15 @@ export default function Resume() {
                     }
 
                 </ul>
+            </div>
+            <div className="m-4">
+                <p>Want more details? Check out my Resume below:</p>
+                <button
+                    className="btn btn-outline-light"
+                    onClick={onResumeClick}
+                >
+                    Download PDF
+                </button>
             </div>
         </div>
     );
