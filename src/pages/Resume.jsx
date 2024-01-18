@@ -10,44 +10,51 @@ export default function Resume() {
         document.body.removeChild(link);
     };
 
+    const proficiencies = [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "React",
+        "MongoDB",
+        "SQL",
+        "APIs",
+        "SEOs",
+        "Heroku",
+        "Git",
+        "Responsive design",
+        "Testing/debugging"
+    ]
+
+
+
     return (
         <div>
             <h3>Resume and Proficiencies</h3>
             <div className="text-center">
-            <p >Download Resume PDF here:</p>
-            <button 
-            className="btn btn-outline-light mb-4"
-            onClick={onResumeClick}
-            >
-                Download PDF
-            </button>
+                <p>Want more details? Download Resume below:</p>
+                <button
+                    className="btn btn-outline-light mb-4"
+                    onClick={onResumeClick}
+                >
+                    Download PDF
+                </button>
             </div>
-            <h4>Proficiencies</h4>
-            <ul>
-                <li>
-                    JavaScript
-                </li>
-                <li>
-                    HTML
-                </li>
-                <li>
-                    CSS
-                </li>
-                <li>
-                    MongoDB
-                </li>
-                <li>
-                    SQL
-                </li>
-                <li>
-                    APIs 
-                </li>
-                <li>
-                    SEOs
-                </li>
+            <div className="card w-75 border border-light-subtle p-3">
+                <h4 className="text-center  border border-light-subtle p-3"> Proficiencies</h4>
 
-            </ul>
+                <ul className="prof-list">
+                    {
+                        // key needs to be unique to avoid react warning (error) so put as index
+                        proficiencies.map((proficiency, index) =>
+                            <li
+                                key={index}
+                            >
+                                {proficiency}
+                            </li>)
+                    }
 
+                </ul>
+            </div>
         </div>
     );
 }
