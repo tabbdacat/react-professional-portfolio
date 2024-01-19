@@ -6,13 +6,13 @@ export default function About() {
             <h3>About Me</h3>
             <div className="container row  text-center">
                 <div className="col">
-                    <img src={mePhoto} className="pic-me img-fluid rounded col p-2" alt="Photo of Tabbatha"></img>
+                    <img src={mePhoto} className="pic-me img-fluid rounded col m-2  border border-light-subtle" alt="Photo of Tabbatha"></img>
                 </div>
                 <div className="col-lg-7 col-md-5 my-auto ">
                     <blockquote className="blockquote mb-0">
                         <p>"People who say it cannot be done should not interrupt those who are doing it."</p>
                         <footer className="blockquote-footer mb-3">George Bernard Shaw, 
-                        <cite title="Source Title">playwright</cite>
+                        <cite title="Source Title"> playwright</cite>
                         </footer>
                     </blockquote>
                     <p>
