@@ -11,3 +11,12 @@ While developing this app, I learned about using React which can promote creativ
 [Link to Deployed Application](https://tabbatha-pischke-portfolio.netlify.app/)
 
 ![image of deployed application](/src/assets/images/portfolio-scrnsht.jpg)
+
+## Credits
+
+This application utilizes the following technologies:
+
+Node.js: https://nodejs.org/en
+Bootstrap: https://getbootstrap.com/
+React: https://react.dev/
+Vite: https://vitejs.dev/guide/
