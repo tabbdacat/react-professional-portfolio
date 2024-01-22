@@ -1,8 +1,13 @@
-# React + Vite
+# Professional Portfolio Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This app showcases my professional projects in Web Development. This single-page application utilizes the React library and is responsive to mobile screens. There are several tabs including a brief bio, a resume, and a portfolio with screenshots, as well as working links to deployed projects and their associated GitHub repositories. For those who wish to reach out for further inquiries, a contact form is available. The application is made to be visually appealing and interactive, with accessibility in mind.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+While developing this app, I learned about using React which can promote creativity and ease during the development process.
+
+## Usage
+
+[Link to Deployed Application](https://tabbatha-pischke-portfolio.netlify.app/)
+
+![image of deployed application](/src/assets/images/portfolio-scrnsht.jpg)
