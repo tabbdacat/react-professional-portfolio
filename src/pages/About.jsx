@@ -11,12 +11,12 @@ export default function About() {
                 <div className="col-lg-7 col-md-5 my-auto ">
                     <blockquote className="blockquote mb-0">
                         <p>"People who say it cannot be done should not interrupt those who are doing it."</p>
-                        <footer className="blockquote-footer mb-3">George Bernard Shaw, 
-                        <cite title="Source Title"> playwright</cite>
+                        <footer className="blockquote-footer mb-3">George Bernard Shaw,
+                            <cite title="Source Title"> playwright</cite>
                         </footer>
                     </blockquote>
                     <p>
-                        Full Stack Web Developer with a unique background in the healthcare field. Completing a certificate in Full Stack Web Development from the University of California Berkeley Coding Boot Camp. Critical thinker with a passion for solving complex problems. Strengths include teamwork, multitasking, and a strong desire to learn new skills as well as improve existing skills. Pursuing a career path that allows me to utilize my current skills and apply them in new creative ways.
+                        Full Stack Web Developer with a unique background in the healthcare field. Obtained certificate in Full Stack Web Development from the University of California Berkeley Coding Boot Camp in January 2024. Critical thinker with a passion for solving complex problems. Strengths include teamwork, multitasking, and a strong desire to learn new skills as well as improve existing skills. Pursuing a career path that allows me to utilize my current skills and apply them in new creative ways.
 
                     </p>
                 </div>
