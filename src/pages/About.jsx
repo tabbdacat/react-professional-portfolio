@@ -1,4 +1,4 @@
-import mePhoto from '../assets/images/me-2024.jpg';
+import mePhoto from '../assets/images/me2024.jpg';
 
 export default function About() {
     return (
