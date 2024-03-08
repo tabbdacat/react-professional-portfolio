@@ -25,7 +25,7 @@ const projects = [
         title: "Tech Blog",
         image: techBlogImg,
         github: "https://github.com/tabbdacat/tech-blog",
-        site: "https://mvc-culinary-connect-e00ad0e3e10d.herokuapp.com/"
+        site: "https://tech-blog-t-pischke-400d3e7cf65d.herokuapp.com/"
     },
     {
         title: "Weather Dashboard",
